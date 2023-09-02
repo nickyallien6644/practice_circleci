@@ -10,6 +10,6 @@ jobs:
           command: |
             echo $MY_ENV_VAR
 workflows:
-  welcome:
+  build:
     jobs:
       - build
